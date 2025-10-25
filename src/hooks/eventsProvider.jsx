@@ -11,11 +11,11 @@ function normalize(data) {
     date: d.dateVenue,
     time: (d.timeVenueUTC || "00:00:00").slice(0, 5),
     sport: (d.sport || "unknown").toLowerCase(),
-    homeTeam: d.homeTeam?.name ?? "",
-    awayTeam: d.awayTeam?.name ?? "",
+    homeTeam: d.homeTeam?.name ?? "TBA",
+    awayTeam: d.awayTeam?.name ?? "TBA",
     title:
       d.homeTeam?.name || d.awayTeam?.name
-        ? `${d.homeTeam?.name || "TBA"} vs ${d.awayTeam?.name || ""}`.trim()
+        ? `${d.homeTeam?.name || "TBA"} vs ${d.awayTeam?.name || "TBA"}`
         : d.originCompetitionName,
     stage: d.stage?.name || null,
     status: d.status,
