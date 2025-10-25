@@ -140,11 +140,13 @@ body {
   background:#fff; 
   border-radius:.375rem; 
   padding:.5rem; 
-  min-height:80px; 
+  min-height:80px;
+  max-height:110px;
   display:flex; 
   flex-direction:column; 
   border:1px solid var(--border);
   transition: all .2s;
+  overflow: hidden;
 }
 .day:hover { 
   border-color:var(--primary);
@@ -157,7 +159,13 @@ body {
   color:var(--dark-text); 
   font-weight:600;
 }
-.events { display:flex; flex-direction:column; gap:.2rem; margin-top:auto; }
+.events { 
+  display:flex; 
+  flex-direction:column; 
+  gap:.2rem; 
+  margin-top:auto;
+  overflow: hidden;
+}
 .event-link { text-decoration:none; }
 .badge { 
   display:inline-block; 
@@ -278,6 +286,7 @@ button:hover {
   
   .day { 
     min-height:120px;
+    max-height:160px;
     padding: .6rem;
   }
   
