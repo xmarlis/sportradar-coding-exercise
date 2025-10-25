@@ -17,22 +17,9 @@ body {
   color:var(--dark-text); 
   background: #FAFBFC url('/pattern.png');
   background-repeat: repeat;
-  /* background-size: auto; */
-  background-size: 1600px auto; /* scales to 1200px wide, height adjusts proportionally */
+  background-size: 1600px auto;
   background-position: center;
   min-height: 100vh;
-}
-
-/* Alternative option - if you want it to scale proportionally */
-body.scale-pattern { 
-  background-size: 600px auto; /* maintains aspect ratio, scales width to 600px */
-}
-
-/* Alternative option - if you want full coverage without distortion */
-body.cover-pattern {
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 .container { max-width:1200px; margin:0 auto; padding:1rem; }
@@ -43,23 +30,49 @@ body.cover-pattern {
   background:#fff;
   box-shadow:var(--shadow); 
   display:flex; 
-  gap:1rem; 
+  gap:0.5rem;
   align-items:center; 
-  padding:.75rem 1.5rem; 
+  padding:.75rem 1rem;
   z-index:10;
   border-bottom: 1px solid var(--border);
 }
-.nav .brand { 
-  font-weight:700; 
-  color:var(--dark-text); 
-  font-size:1.1rem;
+
+.nav .brand {
+  font-weight: 700;
+  color: var(--dark-text);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  white-space: nowrap;
 }
+
+.nav .brand:hover {
+  opacity: 0.8;
+}
+
+.nav .brand .logo {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.nav .links {
+  display: flex;
+  gap: 0.75rem;
+  margin-left: auto;
+}
+
 .nav .links a { 
-  margin-right:1.5rem; 
   text-decoration:none; 
   color:var(--gray-text); 
   transition: color .2s;
   font-weight:500;
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
 .nav .links a:hover { color:var(--dark-text); }
 .nav .links a.active { 
@@ -71,21 +84,22 @@ body.cover-pattern {
   display:flex; 
   align-items:center; 
   justify-content:space-between; 
-  gap:1rem; 
-  margin:1.5rem 0; 
+  gap:0.5rem;
+  margin:1rem 0; 
   background:#fff;
-  padding:1.25rem 1.5rem;
+  padding:1rem;
   border-radius:.5rem;
   box-shadow:var(--shadow);
+  flex-wrap: wrap;
 }
 .cal-header h2 { 
   margin:0; 
   color:var(--dark-text);
-  font-size:1.5rem;
+  font-size:1.25rem;
   font-weight:600;
 }
 .cal-header button { 
-  padding:.5rem 1rem; 
+  padding:.5rem .75rem; 
   background:var(--primary);
   color:#fff;
   border:0;
@@ -94,6 +108,7 @@ body.cover-pattern {
   transition: background .2s;
   font-weight:500;
   font-size:.875rem;
+  white-space: nowrap;
 }
 .cal-header button:hover { 
   background:var(--primary-dark);
@@ -111,12 +126,12 @@ body.cover-pattern {
 .dow { 
   font-weight:600; 
   text-align:center; 
-  padding:.6rem 0; 
+  padding:.5rem 0.25rem; 
   background:#fff;
   color:var(--gray-text);
   border-radius:.375rem;
   text-transform: uppercase;
-  font-size:.75rem;
+  font-size:.65rem;
   letter-spacing: .05em;
   border:1px solid var(--border);
 }
@@ -124,8 +139,8 @@ body.cover-pattern {
 .day { 
   background:#fff; 
   border-radius:.375rem; 
-  padding:.6rem; 
-  min-height:90px; 
+  padding:.5rem; 
+  min-height:80px; 
   display:flex; 
   flex-direction:column; 
   border:1px solid var(--border);
@@ -137,29 +152,32 @@ body.cover-pattern {
 }
 .day.muted { opacity:.4; }
 .date-num { 
-  font-size:.9rem; 
-  margin-bottom:.3rem; 
+  font-size:.85rem; 
+  margin-bottom:.25rem; 
   color:var(--dark-text); 
   font-weight:600;
 }
-.events { display:flex; flex-direction:column; gap:.25rem; margin-top:auto; }
+.events { display:flex; flex-direction:column; gap:.2rem; margin-top:auto; }
 .event-link { text-decoration:none; }
 .badge { 
   display:inline-block; 
-  font-size:.75rem; 
-  padding:.25rem .5rem; 
+  font-size:.7rem; 
+  padding:.2rem .4rem; 
   border-radius:.25rem; 
   background:var(--primary);
   color:#fff; 
   font-weight:500;
   transition: background .2s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .badge:hover {
   background:var(--primary-dark);
 }
-.more { font-size:.75rem; color:var(--gray-text); }
+.more { font-size:.7rem; color:var(--gray-text); }
 
-.form-wrap { max-width:560px; margin:0 auto; }
+.form-wrap { max-width:560px; margin:0 auto; padding: 0 1rem; }
 .form { 
   display:grid; 
   gap:.9rem; 
@@ -209,8 +227,75 @@ button:hover {
   padding:1.5rem; 
   box-shadow:var(--shadow); 
   border-left:4px solid var(--primary);
+  max-width: 800px;
+  margin: 1rem auto;
 }
 
+/* Tablet and Desktop */
 @media (min-width:768px){ 
-  .day{ min-height:120px; } 
+  .nav {
+    padding: .75rem 1.5rem;
+    gap: 1rem;
+  }
+  
+  .nav .brand {
+    font-size: 1.1rem;
+    gap: 0.5rem;
+  }
+  
+  .nav .brand .logo {
+    height: 28px;
+    width: 28px;
+  }
+  
+  .nav .links {
+    gap: 1rem;
+  }
+  
+  .nav .links a {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .cal-header {
+    padding: 1.25rem 1.5rem;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  
+  .cal-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .cal-header button {
+    padding: .5rem 1rem;
+  }
+  
+  .dow {
+    padding: .6rem 0;
+    font-size: .75rem;
+  }
+  
+  .day { 
+    min-height:120px;
+    padding: .6rem;
+  }
+  
+  .date-num {
+    font-size: .9rem;
+    margin-bottom: .3rem;
+  }
+  
+  .events {
+    gap: .25rem;
+  }
+  
+  .badge {
+    font-size: .75rem;
+    padding: .25rem .5rem;
+  }
+  
+  .more {
+    font-size: .75rem;
+  }
 }
