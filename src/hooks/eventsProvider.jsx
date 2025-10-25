@@ -1,7 +1,9 @@
 // Provider that loads/normalizes seeded events, manages event state, and exposes helpers.
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { EventsCtx } from "./eventsContext.jsx";
 import seed from "../data/seed.json";
+
+const STORAGE_KEY = "sports-calendar-events";
 
 function normalize(data) {
   return (data || []).map((d, i) => ({
@@ -21,13 +23,40 @@ function normalize(data) {
   }));
 }
 
+// Load events from localStorage or seed data
+function loadInitialEvents() {
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      return JSON.parse(stored);
+    }
+  } catch (error) {
+    console.error("Failed to load events from localStorage:", error);
+  }
+  return normalize(seed.data);
+}
+
 export default function EventsProvider({ children }) {
-  const [events, setEvents] = useState(() => normalize(seed.data));
+  const [events, setEvents] = useState(loadInitialEvents);
+
+  // Save to localStorage whenever events change
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(events));
+    } catch (error) {
+      console.error("Failed to save events to localStorage:", error);
+    }
+  }, [events]);
 
   const addEvent = (e) =>
     setEvents((prev) => [...prev, { id: String(Date.now()), ...e }]);
 
   const getEventById = (id) => events.find((e) => e.id === id);
+
+  const resetEvents = () => {
+    const fresh = normalize(seed.data);
+    setEvents(fresh);
+  };
 
   const eventsByDate = useMemo(() => {
     const map = new Map();
@@ -39,7 +68,13 @@ export default function EventsProvider({ children }) {
   }, [events]);
 
   return (
-    <EventsCtx.Provider value={{ events, addEvent, getEventById, eventsByDate }}>
+    <EventsCtx.Provider value={{ 
+      events, 
+      addEvent, 
+      getEventById, 
+      eventsByDate,
+      resetEvents
+    }}>
       {children}
     </EventsCtx.Provider>
   );
