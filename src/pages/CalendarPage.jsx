@@ -13,7 +13,7 @@ const sportConfig = {
 
 export default function CalendarPage() {
   const [current, setCurrent] = useState(new Date());
-  const [selectedSport, setSelectedSport] = useState("all");
+  const [selectedSports, setSelectedSports] = useState(new Set()); // Changed to Set
   const { eventsByDate, events } = useEvents();
 
   // Get unique sports from events
@@ -22,19 +22,37 @@ export default function CalendarPage() {
     return Array.from(sports).sort();
   }, [events]);
 
-  // Filter events by selected sport
+  // Filter events by selected sports (multiple)
   const filteredEventsByDate = useMemo(() => {
-    if (selectedSport === "all") return eventsByDate;
+    if (selectedSports.size === 0) return eventsByDate; // Show all if none selected
     
     const filtered = new Map();
     for (const [date, dateEvents] of eventsByDate) {
-      const sportEvents = dateEvents.filter(e => e.sport === selectedSport);
+      const sportEvents = dateEvents.filter(e => selectedSports.has(e.sport));
       if (sportEvents.length > 0) {
         filtered.set(date, sportEvents);
       }
     }
     return filtered;
-  }, [eventsByDate, selectedSport]);
+  }, [eventsByDate, selectedSports]);
+
+  // Toggle sport selection
+  const toggleSport = (sport) => {
+    setSelectedSports(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(sport)) {
+        newSet.delete(sport); // Remove if already selected
+      } else {
+        newSet.add(sport); // Add if not selected
+      }
+      return newSet;
+    });
+  };
+
+  // Clear all filters
+  const clearFilters = () => {
+    setSelectedSports(new Set());
+  };
 
   return (
     <section>
@@ -47,8 +65,8 @@ export default function CalendarPage() {
         
         <div className="sport-filters">
           <button
-            className={`sport-pill ${selectedSport === 'all' ? 'active' : ''}`}
-            onClick={() => setSelectedSport('all')}
+            className={`sport-pill ${selectedSports.size === 0 ? 'active' : ''}`}
+            onClick={clearFilters}
             aria-label="Show all sports"
           >
             All Sports
@@ -57,18 +75,20 @@ export default function CalendarPage() {
             const config = sportConfig[sport];
             if (!config) return null;
             
+            const isSelected = selectedSports.has(sport);
+            
             return (
               <button
                 key={sport}
-                className={`sport-pill ${selectedSport === sport ? 'active' : ''}`}
-                onClick={() => setSelectedSport(selectedSport === sport ? 'all' : sport)}
+                className={`sport-pill ${isSelected ? 'active' : ''}`}
+                onClick={() => toggleSport(sport)}
                 style={{
                   '--sport-color': config.color,
-                  backgroundColor: selectedSport === sport ? config.color : 'transparent',
-                  color: selectedSport === sport ? '#fff' : config.color,
+                  backgroundColor: isSelected ? config.color : 'transparent',
+                  color: isSelected ? '#fff' : config.color,
                   borderColor: config.color
                 }}
-                aria-label={`Filter by ${config.name}`}
+                aria-label={`${isSelected ? 'Hide' : 'Show'} ${config.name}`}
               >
                 <span className="sport-symbol">{config.symbol}</span>
                 {config.name}
