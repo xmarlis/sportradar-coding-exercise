@@ -68,7 +68,7 @@ This creates `src/data/generated-events.json` with 70+ events across October-Dec
 To load generated events into your app:
 1. Open browser console (F12)
 2. Run:
-```javascript
+```
 fetch('/src/data/generated-events.json')
   .then(r => r.json())
   .then(data => {
