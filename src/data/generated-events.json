@@ -1,0 +1,1334 @@
+{
+  "events": [
+    {
+      "id": "gen-1761487787986-9-10-1",
+      "date": "2025-10-01",
+      "time": "19:30",
+      "sport": "tennis",
+      "homeTeam": "Alcaraz",
+      "awayTeam": "Sinner",
+      "title": "Alcaraz vs Sinner",
+      "stage": "Regular Season",
+      "status": "played",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 3,
+        "winner": "Sinner"
+      }
+    },
+    {
+      "id": "gen-1761487787986-8-10-2",
+      "date": "2025-10-02",
+      "time": "10:00",
+      "sport": "football",
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Barcelona",
+      "title": "Real Madrid vs Barcelona",
+      "stage": "Round of 16",
+      "status": "played",
+      "result": {
+        "homeGoals": 4,
+        "awayGoals": 1,
+        "winner": "Real Madrid"
+      }
+    },
+    {
+      "id": "gen-1761487787986-11-10-2",
+      "date": "2025-10-02",
+      "time": "13:30",
+      "sport": "basketball",
+      "homeTeam": "Lakers",
+      "awayTeam": "Celtics",
+      "title": "Lakers vs Celtics",
+      "stage": "Group Stage",
+      "status": "played",
+      "result": {
+        "homeGoals": 4,
+        "awayGoals": 2,
+        "winner": "Lakers"
+      }
+    },
+    {
+      "id": "gen-1761487787986-4-10-4",
+      "date": "2025-10-04",
+      "time": "17:30",
+      "sport": "tennis",
+      "homeTeam": "Federer",
+      "awayTeam": "Murray",
+      "title": "Federer vs Murray",
+      "stage": "Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "winner": "Murray"
+      }
+    },
+    {
+      "id": "gen-1761487787986-10-10-4",
+      "date": "2025-10-04",
+      "time": "10:30",
+      "sport": "basketball",
+      "homeTeam": "Bulls",
+      "awayTeam": "Heat",
+      "title": "Bulls vs Heat",
+      "stage": "Group Stage",
+      "status": "played",
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "winner": "Bulls"
+      }
+    },
+    {
+      "id": "gen-1761487787986-24-10-4",
+      "date": "2025-10-04",
+      "time": "10:00",
+      "sport": "tennis",
+      "homeTeam": "Djokovic",
+      "awayTeam": "Nadal",
+      "title": "Djokovic vs Nadal",
+      "stage": "Semi Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 0,
+        "winner": "Djokovic"
+      }
+    },
+    {
+      "id": "gen-1761487787986-12-10-6",
+      "date": "2025-10-06",
+      "time": "18:30",
+      "sport": "tennis",
+      "homeTeam": "Federer",
+      "awayTeam": "Murray",
+      "title": "Federer vs Murray",
+      "stage": "Round of 16",
+      "status": "played",
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 3,
+        "winner": "Murray"
+      }
+    },
+    {
+      "id": "gen-1761487787986-15-10-6",
+      "date": "2025-10-06",
+      "time": "17:30",
+      "sport": "tennis",
+      "homeTeam": "Alcaraz",
+      "awayTeam": "Sinner",
+      "title": "Alcaraz vs Sinner",
+      "stage": "Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 2,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-19-10-8",
+      "date": "2025-10-08",
+      "time": "16:00",
+      "sport": "basketball",
+      "homeTeam": "Bucks",
+      "awayTeam": "Knicks",
+      "title": "Bucks vs Knicks",
+      "stage": "Semi Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-5-10-9",
+      "date": "2025-10-09",
+      "time": "16:00",
+      "sport": "football",
+      "homeTeam": "Manchester United",
+      "awayTeam": "Liverpool",
+      "title": "Manchester United vs Liverpool",
+      "stage": "Regular Season",
+      "status": "played",
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-18-10-12",
+      "date": "2025-10-12",
+      "time": "16:00",
+      "sport": "volleyball",
+      "homeTeam": "Perugia",
+      "awayTeam": "Modena",
+      "title": "Perugia vs Modena",
+      "stage": "Round of 16",
+      "status": "played",
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 3,
+        "winner": "Modena"
+      }
+    },
+    {
+      "id": "gen-1761487787986-21-10-12",
+      "date": "2025-10-12",
+      "time": "17:00",
+      "sport": "tennis",
+      "homeTeam": "Alcaraz",
+      "awayTeam": "Sinner",
+      "title": "Alcaraz vs Sinner",
+      "stage": "Regular Season",
+      "status": "played",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-13-10-14",
+      "date": "2025-10-14",
+      "time": "14:30",
+      "sport": "basketball",
+      "homeTeam": "Clippers",
+      "awayTeam": "Nuggets",
+      "title": "Clippers vs Nuggets",
+      "stage": "Quarter Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 3,
+        "winner": "Nuggets"
+      }
+    },
+    {
+      "id": "gen-1761487787986-20-10-14",
+      "date": "2025-10-14",
+      "time": "10:00",
+      "sport": "hockey",
+      "homeTeam": "Blackhawks",
+      "awayTeam": "Red Wings",
+      "title": "Blackhawks vs Red Wings",
+      "stage": "Quarter Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "winner": "Red Wings"
+      }
+    },
+    {
+      "id": "gen-1761487787986-22-10-14",
+      "date": "2025-10-14",
+      "time": "12:30",
+      "sport": "volleyball",
+      "homeTeam": "Fenerbahce",
+      "awayTeam": "Vakifbank",
+      "title": "Fenerbahce vs Vakifbank",
+      "stage": "Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 4,
+        "winner": "Vakifbank"
+      }
+    },
+    {
+      "id": "gen-1761487787986-6-10-17",
+      "date": "2025-10-17",
+      "time": "19:00",
+      "sport": "basketball",
+      "homeTeam": "Mavericks",
+      "awayTeam": "Suns",
+      "title": "Mavericks vs Suns",
+      "stage": "Semi Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "winner": "Suns"
+      }
+    },
+    {
+      "id": "gen-1761487787986-0-10-18",
+      "date": "2025-10-18",
+      "time": "16:30",
+      "sport": "tennis",
+      "homeTeam": "Alcaraz",
+      "awayTeam": "Sinner",
+      "title": "Alcaraz vs Sinner",
+      "stage": "Round of 16",
+      "status": "played",
+      "result": {
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "winner": "Alcaraz"
+      }
+    },
+    {
+      "id": "gen-1761487787986-3-10-18",
+      "date": "2025-10-18",
+      "time": "10:00",
+      "sport": "basketball",
+      "homeTeam": "Lakers",
+      "awayTeam": "Celtics",
+      "title": "Lakers vs Celtics",
+      "stage": "Group Stage",
+      "status": "played",
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "winner": "Celtics"
+      }
+    },
+    {
+      "id": "gen-1761487787986-23-10-18",
+      "date": "2025-10-18",
+      "time": "14:00",
+      "sport": "tennis",
+      "homeTeam": "Alcaraz",
+      "awayTeam": "Sinner",
+      "title": "Alcaraz vs Sinner",
+      "stage": "Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-7-10-21",
+      "date": "2025-10-21",
+      "time": "15:30",
+      "sport": "football",
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Barcelona",
+      "title": "Real Madrid vs Barcelona",
+      "stage": "Round of 16",
+      "status": "played",
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 4,
+        "winner": "Barcelona"
+      }
+    },
+    {
+      "id": "gen-1761487787986-16-10-22",
+      "date": "2025-10-22",
+      "time": "13:00",
+      "sport": "hockey",
+      "homeTeam": "Avalanche",
+      "awayTeam": "Wild",
+      "title": "Avalanche vs Wild",
+      "stage": "Regular Season",
+      "status": "played",
+      "result": {
+        "homeGoals": 4,
+        "awayGoals": 1,
+        "winner": "Avalanche"
+      }
+    },
+    {
+      "id": "gen-1761487787986-14-10-23",
+      "date": "2025-10-23",
+      "time": "17:30",
+      "sport": "hockey",
+      "homeTeam": "Avalanche",
+      "awayTeam": "Wild",
+      "title": "Avalanche vs Wild",
+      "stage": "Round of 16",
+      "status": "played",
+      "result": {
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "winner": "Avalanche"
+      }
+    },
+    {
+      "id": "gen-1761487787986-1-10-24",
+      "date": "2025-10-24",
+      "time": "16:30",
+      "sport": "tennis",
+      "homeTeam": "Medvedev",
+      "awayTeam": "Zverev",
+      "title": "Medvedev vs Zverev",
+      "stage": "Quarter Finals",
+      "status": "played",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 3,
+        "winner": "Zverev"
+      }
+    },
+    {
+      "id": "gen-1761487787986-2-10-30",
+      "date": "2025-10-30",
+      "time": "13:30",
+      "sport": "volleyball",
+      "homeTeam": "Fenerbahce",
+      "awayTeam": "Vakifbank",
+      "title": "Fenerbahce vs Vakifbank",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-17-10-30",
+      "date": "2025-10-30",
+      "time": "15:00",
+      "sport": "basketball",
+      "homeTeam": "Clippers",
+      "awayTeam": "Nuggets",
+      "title": "Clippers vs Nuggets",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-3-11-1",
+      "date": "2025-11-01",
+      "time": "18:00",
+      "sport": "hockey",
+      "homeTeam": "Penguins",
+      "awayTeam": "Capitals",
+      "title": "Penguins vs Capitals",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-11-11-3",
+      "date": "2025-11-03",
+      "time": "13:30",
+      "sport": "hockey",
+      "homeTeam": "Blackhawks",
+      "awayTeam": "Red Wings",
+      "title": "Blackhawks vs Red Wings",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-22-11-3",
+      "date": "2025-11-03",
+      "time": "11:30",
+      "sport": "football",
+      "homeTeam": "Ajax",
+      "awayTeam": "Feyenoord",
+      "title": "Ajax vs Feyenoord",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-5-11-5",
+      "date": "2025-11-05",
+      "time": "15:00",
+      "sport": "football",
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Barcelona",
+      "title": "Real Madrid vs Barcelona",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-25-11-5",
+      "date": "2025-11-05",
+      "time": "13:00",
+      "sport": "hockey",
+      "homeTeam": "Maple Leafs",
+      "awayTeam": "Canadiens",
+      "title": "Maple Leafs vs Canadiens",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-1-11-6",
+      "date": "2025-11-06",
+      "time": "15:30",
+      "sport": "volleyball",
+      "homeTeam": "Zenit Kazan",
+      "awayTeam": "Lube Civitanova",
+      "title": "Zenit Kazan vs Lube Civitanova",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-13-11-8",
+      "date": "2025-11-08",
+      "time": "18:00",
+      "sport": "football",
+      "homeTeam": "Ajax",
+      "awayTeam": "Feyenoord",
+      "title": "Ajax vs Feyenoord",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-14-11-9",
+      "date": "2025-11-09",
+      "time": "17:30",
+      "sport": "basketball",
+      "homeTeam": "Clippers",
+      "awayTeam": "Nuggets",
+      "title": "Clippers vs Nuggets",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-19-11-10",
+      "date": "2025-11-10",
+      "time": "17:00",
+      "sport": "tennis",
+      "homeTeam": "Djokovic",
+      "awayTeam": "Nadal",
+      "title": "Djokovic vs Nadal",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-24-11-10",
+      "date": "2025-11-10",
+      "time": "15:30",
+      "sport": "hockey",
+      "homeTeam": "Blackhawks",
+      "awayTeam": "Red Wings",
+      "title": "Blackhawks vs Red Wings",
+      "stage": "Group Stage",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-27-11-12",
+      "date": "2025-11-12",
+      "time": "12:00",
+      "sport": "volleyball",
+      "homeTeam": "Berlin",
+      "awayTeam": "Friedrichshafen",
+      "title": "Berlin vs Friedrichshafen",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-10-11-14",
+      "date": "2025-11-14",
+      "time": "19:30",
+      "sport": "tennis",
+      "homeTeam": "Medvedev",
+      "awayTeam": "Zverev",
+      "title": "Medvedev vs Zverev",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-21-11-14",
+      "date": "2025-11-14",
+      "time": "11:00",
+      "sport": "basketball",
+      "homeTeam": "Mavericks",
+      "awayTeam": "Suns",
+      "title": "Mavericks vs Suns",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-0-11-15",
+      "date": "2025-11-15",
+      "time": "14:30",
+      "sport": "basketball",
+      "homeTeam": "Mavericks",
+      "awayTeam": "Suns",
+      "title": "Mavericks vs Suns",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-17-11-15",
+      "date": "2025-11-15",
+      "time": "10:30",
+      "sport": "hockey",
+      "homeTeam": "Rangers",
+      "awayTeam": "Bruins",
+      "title": "Rangers vs Bruins",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-20-11-19",
+      "date": "2025-11-19",
+      "time": "14:00",
+      "sport": "hockey",
+      "homeTeam": "Blackhawks",
+      "awayTeam": "Red Wings",
+      "title": "Blackhawks vs Red Wings",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-26-11-19",
+      "date": "2025-11-19",
+      "time": "15:00",
+      "sport": "tennis",
+      "homeTeam": "Medvedev",
+      "awayTeam": "Zverev",
+      "title": "Medvedev vs Zverev",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-8-11-20",
+      "date": "2025-11-20",
+      "time": "15:30",
+      "sport": "hockey",
+      "homeTeam": "Flames",
+      "awayTeam": "Oilers",
+      "title": "Flames vs Oilers",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-16-11-20",
+      "date": "2025-11-20",
+      "time": "14:00",
+      "sport": "volleyball",
+      "homeTeam": "Fenerbahce",
+      "awayTeam": "Vakifbank",
+      "title": "Fenerbahce vs Vakifbank",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-7-11-21",
+      "date": "2025-11-21",
+      "time": "19:00",
+      "sport": "hockey",
+      "homeTeam": "Maple Leafs",
+      "awayTeam": "Canadiens",
+      "title": "Maple Leafs vs Canadiens",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-4-11-22",
+      "date": "2025-11-22",
+      "time": "11:30",
+      "sport": "tennis",
+      "homeTeam": "Medvedev",
+      "awayTeam": "Zverev",
+      "title": "Medvedev vs Zverev",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-6-11-22",
+      "date": "2025-11-22",
+      "time": "12:00",
+      "sport": "hockey",
+      "homeTeam": "Penguins",
+      "awayTeam": "Capitals",
+      "title": "Penguins vs Capitals",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-12-11-22",
+      "date": "2025-11-22",
+      "time": "16:30",
+      "sport": "volleyball",
+      "homeTeam": "Zenit Kazan",
+      "awayTeam": "Lube Civitanova",
+      "title": "Zenit Kazan vs Lube Civitanova",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-23-11-22",
+      "date": "2025-11-22",
+      "time": "14:00",
+      "sport": "tennis",
+      "homeTeam": "Djokovic",
+      "awayTeam": "Nadal",
+      "title": "Djokovic vs Nadal",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-28-11-22",
+      "date": "2025-11-22",
+      "time": "15:00",
+      "sport": "volleyball",
+      "homeTeam": "Zenit Kazan",
+      "awayTeam": "Lube Civitanova",
+      "title": "Zenit Kazan vs Lube Civitanova",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-9-11-23",
+      "date": "2025-11-23",
+      "time": "17:00",
+      "sport": "hockey",
+      "homeTeam": "Blackhawks",
+      "awayTeam": "Red Wings",
+      "title": "Blackhawks vs Red Wings",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-2-11-25",
+      "date": "2025-11-25",
+      "time": "16:00",
+      "sport": "football",
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Barcelona",
+      "title": "Real Madrid vs Barcelona",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-15-11-29",
+      "date": "2025-11-29",
+      "time": "17:30",
+      "sport": "basketball",
+      "homeTeam": "Bulls",
+      "awayTeam": "Heat",
+      "title": "Bulls vs Heat",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-18-11-30",
+      "date": "2025-11-30",
+      "time": "17:00",
+      "sport": "basketball",
+      "homeTeam": "Bulls",
+      "awayTeam": "Heat",
+      "title": "Bulls vs Heat",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-22-12-1",
+      "date": "2025-12-01",
+      "time": "19:30",
+      "sport": "volleyball",
+      "homeTeam": "Berlin",
+      "awayTeam": "Friedrichshafen",
+      "title": "Berlin vs Friedrichshafen",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-2-12-2",
+      "date": "2025-12-02",
+      "time": "11:00",
+      "sport": "basketball",
+      "homeTeam": "Mavericks",
+      "awayTeam": "Suns",
+      "title": "Mavericks vs Suns",
+      "stage": "Group Stage",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-25-12-2",
+      "date": "2025-12-02",
+      "time": "19:30",
+      "sport": "football",
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Borussia Dortmund",
+      "title": "Bayern Munich vs Borussia Dortmund",
+      "stage": "Group Stage",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-7-12-3",
+      "date": "2025-12-03",
+      "time": "12:30",
+      "sport": "tennis",
+      "homeTeam": "Djokovic",
+      "awayTeam": "Nadal",
+      "title": "Djokovic vs Nadal",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-14-12-3",
+      "date": "2025-12-03",
+      "time": "19:00",
+      "sport": "basketball",
+      "homeTeam": "Mavericks",
+      "awayTeam": "Suns",
+      "title": "Mavericks vs Suns",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-21-12-4",
+      "date": "2025-12-04",
+      "time": "16:30",
+      "sport": "hockey",
+      "homeTeam": "Rangers",
+      "awayTeam": "Bruins",
+      "title": "Rangers vs Bruins",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-26-12-4",
+      "date": "2025-12-04",
+      "time": "15:00",
+      "sport": "volleyball",
+      "homeTeam": "Berlin",
+      "awayTeam": "Friedrichshafen",
+      "title": "Berlin vs Friedrichshafen",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-6-12-7",
+      "date": "2025-12-07",
+      "time": "17:30",
+      "sport": "football",
+      "homeTeam": "Ajax",
+      "awayTeam": "Feyenoord",
+      "title": "Ajax vs Feyenoord",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-10-12-7",
+      "date": "2025-12-07",
+      "time": "10:30",
+      "sport": "tennis",
+      "homeTeam": "Djokovic",
+      "awayTeam": "Nadal",
+      "title": "Djokovic vs Nadal",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-3-12-9",
+      "date": "2025-12-09",
+      "time": "15:00",
+      "sport": "tennis",
+      "homeTeam": "Federer",
+      "awayTeam": "Murray",
+      "title": "Federer vs Murray",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-24-12-12",
+      "date": "2025-12-12",
+      "time": "14:30",
+      "sport": "basketball",
+      "homeTeam": "Mavericks",
+      "awayTeam": "Suns",
+      "title": "Mavericks vs Suns",
+      "stage": "Regular Season",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-27-12-12",
+      "date": "2025-12-12",
+      "time": "15:00",
+      "sport": "volleyball",
+      "homeTeam": "Berlin",
+      "awayTeam": "Friedrichshafen",
+      "title": "Berlin vs Friedrichshafen",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-28-12-12",
+      "date": "2025-12-12",
+      "time": "17:00",
+      "sport": "basketball",
+      "homeTeam": "Clippers",
+      "awayTeam": "Nuggets",
+      "title": "Clippers vs Nuggets",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-18-12-13",
+      "date": "2025-12-13",
+      "time": "14:30",
+      "sport": "tennis",
+      "homeTeam": "Djokovic",
+      "awayTeam": "Nadal",
+      "title": "Djokovic vs Nadal",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-0-12-14",
+      "date": "2025-12-14",
+      "time": "16:30",
+      "sport": "tennis",
+      "homeTeam": "Federer",
+      "awayTeam": "Murray",
+      "title": "Federer vs Murray",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-8-12-14",
+      "date": "2025-12-14",
+      "time": "19:00",
+      "sport": "basketball",
+      "homeTeam": "Clippers",
+      "awayTeam": "Nuggets",
+      "title": "Clippers vs Nuggets",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-4-12-15",
+      "date": "2025-12-15",
+      "time": "16:00",
+      "sport": "basketball",
+      "homeTeam": "Bulls",
+      "awayTeam": "Heat",
+      "title": "Bulls vs Heat",
+      "stage": "Quarter Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-5-12-15",
+      "date": "2025-12-15",
+      "time": "14:00",
+      "sport": "hockey",
+      "homeTeam": "Rangers",
+      "awayTeam": "Bruins",
+      "title": "Rangers vs Bruins",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-9-12-15",
+      "date": "2025-12-15",
+      "time": "18:30",
+      "sport": "tennis",
+      "homeTeam": "Djokovic",
+      "awayTeam": "Nadal",
+      "title": "Djokovic vs Nadal",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-13-12-15",
+      "date": "2025-12-15",
+      "time": "17:00",
+      "sport": "football",
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Borussia Dortmund",
+      "title": "Bayern Munich vs Borussia Dortmund",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-1-12-18",
+      "date": "2025-12-18",
+      "time": "13:30",
+      "sport": "football",
+      "homeTeam": "Juventus",
+      "awayTeam": "AC Milan",
+      "title": "Juventus vs AC Milan",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-17-12-21",
+      "date": "2025-12-21",
+      "time": "17:30",
+      "sport": "football",
+      "homeTeam": "Ajax",
+      "awayTeam": "Feyenoord",
+      "title": "Ajax vs Feyenoord",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-12-12-23",
+      "date": "2025-12-23",
+      "time": "15:00",
+      "sport": "hockey",
+      "homeTeam": "Avalanche",
+      "awayTeam": "Wild",
+      "title": "Avalanche vs Wild",
+      "stage": "Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-16-12-24",
+      "date": "2025-12-24",
+      "time": "19:00",
+      "sport": "basketball",
+      "homeTeam": "Bulls",
+      "awayTeam": "Heat",
+      "title": "Bulls vs Heat",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-20-12-25",
+      "date": "2025-12-25",
+      "time": "16:00",
+      "sport": "hockey",
+      "homeTeam": "Rangers",
+      "awayTeam": "Bruins",
+      "title": "Rangers vs Bruins",
+      "stage": "Group Stage",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-11-12-26",
+      "date": "2025-12-26",
+      "time": "13:30",
+      "sport": "football",
+      "homeTeam": "Juventus",
+      "awayTeam": "AC Milan",
+      "title": "Juventus vs AC Milan",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-15-12-27",
+      "date": "2025-12-27",
+      "time": "15:30",
+      "sport": "hockey",
+      "homeTeam": "Flames",
+      "awayTeam": "Oilers",
+      "title": "Flames vs Oilers",
+      "stage": "Semi Finals",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-23-12-27",
+      "date": "2025-12-27",
+      "time": "14:30",
+      "sport": "basketball",
+      "homeTeam": "Bulls",
+      "awayTeam": "Heat",
+      "title": "Bulls vs Heat",
+      "stage": "Group Stage",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    },
+    {
+      "id": "gen-1761487787986-19-12-29",
+      "date": "2025-12-29",
+      "time": "14:00",
+      "sport": "tennis",
+      "homeTeam": "Djokovic",
+      "awayTeam": "Nadal",
+      "title": "Djokovic vs Nadal",
+      "stage": "Round of 16",
+      "status": "scheduled",
+      "result": {
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "winner": null
+      }
+    }
+  ],
+  "generated": "2025-10-26T14:09:47.987Z",
+  "count": 83
+}
