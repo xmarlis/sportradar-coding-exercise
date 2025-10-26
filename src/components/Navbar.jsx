@@ -14,7 +14,7 @@ export default function Navbar() {
     <nav className="nav">
       <Link to="/" className="brand">
         <img src="/favicon.svg" alt="" className="logo" />
-        <span>Sports Calendar</span>
+        <span>SPORTS CALENDAR</span>
       </Link>
       <div className="links">
         <NavLink to="/">Calendar</NavLink>
