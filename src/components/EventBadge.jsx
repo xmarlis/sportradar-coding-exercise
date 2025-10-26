@@ -1,3 +1,7 @@
 export default function EventBadge({ title, sport }) {
-  return <span className={`badge sport-${(sport || "").toLowerCase()}`}>{title}</span>;
+  return (
+    <span className="badge" data-sport={sport}>
+      {title}
+    </span>
+  );
 }
