@@ -87,19 +87,22 @@ body {
   font-weight:600;
 }
 
-/* Reset button in navbar - very subtle and aligned */
+/* Reset button in navbar - icon style with divider */
 .nav .links .nav-reset {
-  padding: 0;
+  padding: 0.2rem 0.3rem;
   margin: 0;
+  margin-left: 0.5rem;
+  padding-left: 1rem;
   background: transparent;
-  color: var(--gray-text);
   border: none;
-  font-size: 0.8rem;
+  border-left: 1px solid var(--border);
+  color: var(--gray-text);
+  font-size: 1.1rem;
   font-weight: 400;
   cursor: pointer;
-  transition: color 0.2s;
+  transition: all 0.2s;
   text-decoration: none;
-  opacity: 0.6;
+  opacity: 0.5;
   line-height: 1;
   white-space: nowrap;
 }
@@ -107,6 +110,7 @@ body {
 .nav .links .nav-reset:hover {
   color: var(--accent);
   opacity: 1;
+  transform: rotate(-45deg);
 }
 
 /* Calendar Header */
@@ -321,7 +325,9 @@ button:hover {
   }
   
   .nav .links .nav-reset {
-    font-size: 0.85rem;
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+    margin-left: 1rem;
   }
   
   .cal-header {
@@ -372,5 +378,10 @@ button:hover {
 @media (max-width: 767px) {
   .nav .links {
     gap: 1rem;
+  }
+  
+  .nav .links .nav-reset {
+    margin-left: 0.3rem;
+    padding-left: 0.75rem;
   }
 }
