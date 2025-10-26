@@ -110,7 +110,6 @@ body {
 .nav .links .nav-reset:hover {
   color: var(--accent);
   opacity: 1;
-  transform: rotate(-45deg);
 }
 
 /* Calendar Header */
