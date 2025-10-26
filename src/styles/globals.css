@@ -553,6 +553,224 @@ button:hover {
   }
 }
 
+/* Add Event Page */
+.add-event-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.add-event-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.add-event-header h1 {
+  margin: 0 0 0.5rem 0;
+  color: var(--dark-text);
+  font-size: 1.75rem;
+}
+
+.add-event-header .subtitle {
+  margin: 0;
+  color: var(--gray-text);
+  font-size: 0.95rem;
+}
+
+.add-event-form {
+  background: #fff;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.form-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.form-section:last-of-type {
+  border-bottom: none;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0;
+}
+
+.form-section h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  color: var(--dark-text);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+
+/* Sport Selector */
+.sport-selector {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+
+.sport-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 2px solid var(--border);
+  border-radius: 0.75rem;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.sport-option .sport-symbol {
+  font-size: 2rem;
+}
+
+.sport-option .sport-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.sport-option:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sport-option.selected {
+  border-width: 2px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Teams Input */
+.teams-input-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  align-items: end;
+}
+
+.vs-separator {
+  font-weight: 700;
+  color: var(--gray-text);
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  background: var(--light-bg);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Date & Time Grid */
+.datetime-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/* Form Labels */
+.label-text {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--dark-text);
+  margin-bottom: 0.5rem;
+}
+
+/* Form Actions */
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.submit-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #fff;
+}
+
+.submit-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button span {
+  font-size: 1.25rem;
+}
+
+.cancel-button {
+  padding: 0.875rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid var(--border);
+  border-radius: 0.5rem;
+  background: transparent;
+  color: var(--gray-text);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cancel-button:hover {
+  border-color: var(--dark-text);
+  color: var(--dark-text);
+  background: var(--light-bg);
+}
+
+/* Mobile adjustments for add event */
+@media (max-width: 767px) {
+  .add-event-form {
+    padding: 1.5rem;
+  }
+  
+  .add-event-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .sport-selector {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.5rem;
+  }
+  
+  .sport-option {
+    padding: 0.75rem;
+  }
+  
+  .sport-option .sport-symbol {
+    font-size: 1.5rem;
+  }
+  
+  .teams-input-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .vs-separator {
+    display: none;
+  }
+  
+  .datetime-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+  }
+}
+
 /* Tablet and Desktop */
 @media (min-width:768px){ 
   .nav {
