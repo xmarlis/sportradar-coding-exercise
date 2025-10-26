@@ -151,6 +151,31 @@ body {
   background:var(--primary-dark);
 }
 
+/* Sport Filter */
+.sport-filter {
+  padding: .5rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: .375rem;
+  background: #fff;
+  color: var(--dark-text);
+  font-size: .875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .2s;
+  font-family: inherit;
+  margin-left: auto;
+}
+
+.sport-filter:hover {
+  border-color: var(--primary);
+}
+
+.sport-filter:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
 /* Calendar Grid */
 .calendar { display:grid; gap:var(--gap); }
 .week { display:grid; grid-template-columns:repeat(7,1fr); gap:var(--gap); }
@@ -222,6 +247,7 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  line-clamp: 2;
 }
 
 .badge:hover {
@@ -344,6 +370,10 @@ button:hover {
     padding: .5rem 1rem;
   }
   
+  .sport-filter {
+    font-size: .875rem;
+  }
+  
   .dow {
     padding: .6rem 0;
     font-size: .75rem;
@@ -383,5 +413,17 @@ button:hover {
   .nav .links .nav-reset {
     margin-left: 0.3rem;
     padding-left: 0.75rem;
+  }
+  
+  /* Make filter full-width on mobile */
+  .cal-header {
+    justify-content: center;
+  }
+  
+  .sport-filter {
+    order: 1;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
 }
