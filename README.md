@@ -21,6 +21,9 @@ A responsive sports event calendar application built with React 19 and Vite. Use
 - **React Router DOM** 7.9.4 - Client-side routing
 - **Vite** 7.1.7 - Build tool and dev server
 - **date-fns** 4.1.0 - Date manipulation and formatting
+- **Vitest** - Testing framework
+- **React Testing Library** - Component testing utilities
+- **happy-dom** - Lightweight DOM implementation for tests
 - **CSS3** - Custom properties for theming and responsive design
 
 ## Getting Started
@@ -51,9 +54,12 @@ npm run dev
 
 ### Other Commands
 ```bash
-npm run build    # Build for production
-npm run preview  # Preview production build
-npm run lint     # Run ESLint
+npm run build              # Build for production
+npm run preview            # Preview production build
+npm run lint               # Run ESLint
+npm test                   # Run tests
+npm test -- --watch        # Run tests in watch mode
+npm test -- --coverage     # Generate test coverage report
 ```
 
 ### Generating Test Events
@@ -68,7 +74,7 @@ This creates `src/data/generated-events.json` with 70+ events across October-Dec
 To load generated events into your app:
 1. Open browser console (F12)
 2. Run:
-```
+```javascript
 fetch('/src/data/generated-events.json')
   .then(r => r.json())
   .then(data => {
@@ -84,17 +90,23 @@ fetch('/src/data/generated-events.json')
 src/
 ├── components/              # Reusable UI components
 │   ├── CalendarGrid.jsx    # Calendar grid with weeks and day cells
+│   ├── CalendarGrid.test.jsx  # CalendarGrid component tests
 │   ├── DayCell.jsx         # Individual day cell with events
 │   ├── EventBadge.jsx      # Event badge display component
-│   └── Navbar.jsx          # Top navigation bar with reset button
+│   ├── Navbar.jsx          # Top navigation bar with reset button
+│   └── Navbar.test.jsx     # Navbar component tests
 ├── pages/                   # Route page components
 │   ├── CalendarPage.jsx    # Main calendar view with filter and month navigation
 │   ├── AddEventPage.jsx    # Event creation form
-│   └── EventDetailPage.jsx # Event detail view
+│   ├── AddEventPage.test.jsx  # AddEventPage form tests
+│   ├── EventDetailPage.jsx # Event detail view
+│   └── EventDetailPage.test.jsx # EventDetailPage tests
 ├── hooks/                   # Custom hooks and context
 │   ├── eventsContext.jsx   # Events context definition
 │   ├── eventsProvider.jsx  # State management, localStorage, normalization
 │   └── useEvents.jsx       # Hook to consume events context
+├── test/                    # Test configuration
+│   └── setup.js            # Test setup and utilities
 ├── data/
 │   ├── seed.json           # Original sports events data from Sportradar
 │   └── generated-events.json # Generated test events (created by script)
@@ -103,6 +115,7 @@ src/
 ├── scripts/
 │   └── generateEvents.js   # Event generation script for testing
 ├── App.jsx                 # Application shell with routing
+├── App.test.jsx            # App integration tests
 └── main.jsx                # Entry point
 ```
 
@@ -217,7 +230,6 @@ src/
 - **No Event Editing** - Can add events and reset to defaults, but not edit individual events
 - **No Delete** - Cannot delete individual events (only reset all)
 - **Limited Validation** - Form only uses HTML5 required attribute
-- **No Tests** - No unit or integration tests implemented
 - **Single Filter** - Can only filter by one sport at a time
 - **No Date Range Filter** - Cannot filter by custom date ranges
 
@@ -227,6 +239,43 @@ src/
 ✅ **Enhanced Styling** - Professional design with pattern background, custom colors, responsive layout  
 ✅ **Persistent Storage** - localStorage implementation for data persistence  
 ✅ **Event Generation Script** - Tool to generate realistic test data
+
+## Testing
+
+The application includes comprehensive unit and integration tests using Vitest and React Testing Library.
+
+### Test Coverage
+
+- ✅ **App Component** (2 tests) - Application rendering and navigation
+- ✅ **Navbar Component** (3 tests) - Navigation links and reset functionality
+- ✅ **CalendarGrid Component** (5 tests) - Calendar rendering and event display
+- ✅ **AddEventPage** (8 tests) - Form fields, validation, and user input
+- ✅ **EventDetailPage** (3 tests) - Event details display and navigation
+
+**Total: 21 tests** covering all 5 assignment tasks.
+
+### Running Tests
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode (auto-rerun on changes)
+npm test -- --watch
+
+# Generate coverage report
+npm test -- --coverage
+```
+
+### Test Strategy
+
+Tests focus on:
+- User interactions (clicks, form inputs, navigation)
+- Component rendering without errors
+- Proper display of data (events, dates, teams)
+- Accessibility (ARIA roles, labels)
+- Error handling (invalid event IDs, missing data)
+
+All components are tested with necessary context providers (EventsProvider, BrowserRouter) to simulate real usage.
 
 ## Future Improvements
 
@@ -238,7 +287,7 @@ If I had more time, I would implement:
 4. **Enhanced Form** - Dropdowns for sport selection, team name autocomplete, better validation
 5. **Keyboard Navigation** - Arrow keys to navigate calendar, Enter to select
 6. **Accessibility** - Enhanced ARIA labels, screen reader support, focus management
-7. **Testing** - Vitest + React Testing Library for component and integration tests
+7. **Expanded Test Coverage** - Integration tests, E2E tests, increased code coverage
 8. **TypeScript** - Type safety for event structures and component props
 9. **Backend Integration** - API for multi-user event sharing and synchronization
 10. **Additional Calendar Features** - Week view, day view, jump to date, "Today" button
