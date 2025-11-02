@@ -1,0 +1,184 @@
+AI_Reflection.txt
+Sports Calendar Application – Coding Exercise
+Marlis Sonnlechner
+
+INTRODUCTION & AI TOOLS USED
+
+I integrated AI tools as collaborative assistants throughout this project to speed up implementation, explore alternative solutions, and strengthen my understanding of React testing.
+My role involved designing all features, writing and refining code, testing thoroughly, and iterating until every component met professional quality standards.
+
+AI TOOLS USED:
+
+Claude (Anthropic) – primary assistant for brainstorming and code generation
+
+GitHub Copilot – inline completions and refactoring suggestions
+
+ChatGPT (OpenAI) – for occasional alternative explanations and debugging ideas
+
+AI served as a pair programming partner, not a replacement. Every implementation decision, testing step, and design choice was directed, reviewed, and finalized by me.
+
+MY WORKFLOW WITH AI
+
+For each feature, I followed this iterative development cycle:
+
+Define Requirements – write clear specifications for each component or feature
+
+Generate Initial Code or Ideas – use AI suggestions or my own implementation as a base
+
+Refine & Debug – review code logic, adapt to React best practices, fix edge cases
+
+Test Thoroughly – in the browser and on mobile
+
+Iterate Until Polished – refine UI, UX, and performance until fully functional
+
+Example – Reset Button Iterations:
+
+Initial implementation: large blue button
+
+Refined to smaller size, then moved into navbar
+
+Simplified into a ↻ icon with hover animation
+
+Final version: minimal, responsive, and visually balanced
+
+This process reflects how I iteratively improved both code and design quality through hands-on testing and targeted feedback.
+
+TESTING IMPLEMENTATION
+
+After completing the main features, I implemented a comprehensive testing suite with Claude’s help for setup and structure, while ensuring I understood and validated each test.
+
+Testing setup: Vitest, React Testing Library, and happy-dom
+I wrote and adapted tests for every major component, analyzed errors, debugged them, and re-ran until full pass coverage.
+
+Final Test Coverage:
+
+App Component – 2 tests
+
+Navbar Component – 3 tests
+
+CalendarGrid – 5 tests
+
+AddEventPage – 8 tests
+
+EventDetailPage – 3 tests
+Total: 21 tests
+
+Through this, I learned the fundamentals of React testing, including context providers, simulated user interactions, and debugging failed assertions.
+
+CODE BREAKDOWN – COLLABORATION MODEL
+
+This project followed an AI-assisted collaboration model where I handled all design, logic validation, and debugging while AI supported routine coding tasks.
+
+My responsibilities included:
+✓ Designing the overall architecture and feature set
+✓ Implementing and refining React components
+✓ Managing state, data flow, and persistence logic
+✓ Handling styling, responsiveness, and UX polish
+✓ Running and debugging all tests
+✓ Writing documentation and commit messages
+✓ Ensuring maintainable and readable code
+
+AI contributed to drafting code snippets, boilerplate, and refactoring suggestions, which I reviewed, edited, and integrated manually.
+
+TECHNICAL DECISIONS
+
+Decisions I made:
+
+React-based single-page architecture (assignment requirement)
+
+Monthly calendar layout and event management features
+
+Sport filtering system and clean indigo/pink design scheme
+
+localStorage for data persistence
+
+Testing scope (21 meaningful tests with full task coverage)
+
+Decisions supported by AI tools:
+
+Use of React Context API over Redux
+
+date-fns for date handling
+
+Vitest + React Testing Library for testing environment
+
+happy-dom for lightweight DOM emulation
+
+Collaborative refinements:
+
+Responsive layout adjustments
+
+Icon and button styles
+
+Test coverage strategy and component hierarchy
+
+WHAT I LEARNED
+
+Technical skills gained:
+✓ React state and context management
+✓ Component structure and navigation (React Router)
+✓ Data persistence with localStorage
+✓ Responsive styling and CSS variables
+✓ Testing frameworks and debugging workflows
+✓ Git version control and commit conventions
+
+Development process insights:
+✓ Writing clear, testable requirements
+✓ Iterating systematically toward quality
+✓ Communicating and refining design ideas effectively
+✓ Debugging through error analysis and user testing
+✓ Evaluating and improving AI-generated code
+
+By collaborating with AI tools:
+✓ I learned professional React app architecture
+✓ Observed effective testing patterns
+✓ Understood tradeoffs between alternative libraries
+✓ Improved my ability to read, critique, and refine complex code
+
+ONE IMPROVEMENT IF I HAD MORE TIME
+
+If I had more time, I would extend the application with Edit/Delete functionality and broader test coverage.
+
+Edit & Delete Events
+
+Add event editing and removal
+
+Implement confirmation dialogs
+
+Enhance EventsProvider with update/delete logic
+
+Expanded Testing
+
+Add integration and responsive tests
+
+Cover smaller components (DayCell, EventBadge)
+
+Validate complete user flows (add → view → reset)
+
+These would complete the CRUD cycle and increase confidence in long-term maintainability.
+
+MY DEVELOPMENT APPROACH
+
+What I excel at:
+✓ Translating ideas into structured requirements
+✓ Building and refining UI/UX components
+✓ Testing, debugging, and improving code quality
+✓ Managing feedback loops effectively
+✓ Maintaining technical clarity and documentation
+
+Key achievements:
+✓ All 5 assignment tasks completed successfully
+✓ 21 tests ensuring robust coverage
+✓ Professional and maintainable React codebase
+✓ Clean and responsive design
+✓ Persistent data storage and sport filtering features
+
+Total development time: ~12 hours
+
+Feature design & architecture: ~3h
+
+Implementation, testing & refinement: ~8h
+
+Documentation: ~1h
+
+The process reflects a balance between human creativity, technical understanding, and effective use of AI to deliver a high-quality application efficiently.
