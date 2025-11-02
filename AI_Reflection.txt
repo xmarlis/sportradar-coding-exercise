@@ -53,13 +53,9 @@ I wrote and adapted tests for every major component, analyzed errors, debugged t
 Final Test Coverage:
 
 App Component – 2 tests
-
 Navbar Component – 3 tests
-
 CalendarGrid – 5 tests
-
 AddEventPage – 8 tests
-
 EventDetailPage – 3 tests
 Total: 21 tests
 
@@ -154,6 +150,8 @@ Add integration and responsive tests
 Cover smaller components (DayCell, EventBadge)
 
 Validate complete user flows (add → view → reset)
+
+In the calendar, when it says “+2 events” on a day, I would also work on improving that functionality so that all events can be viewed — for example, by expanding the cell or opening a modal with the full event list.
 
 These would complete the CRUD cycle and increase confidence in long-term maintainability.
 
